@@ -5,4 +5,9 @@
 * Collapses items that don't match
 * Fires keyup on the input you assign it to.
 
+
   *usage*: $("input#searchfield").search("ul#searchables li")
+  
+shout-out to Johann Burkard for the highlight plugin: 
+
+http://johannburkard.de/blog/programming/javascript/highlight-javascript-text-higlighting-jquery-plugin.html
