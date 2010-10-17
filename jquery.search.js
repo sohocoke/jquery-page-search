@@ -1,8 +1,4 @@
-// #TODO - NOT BEING USED YET - JUST GETTINGSTARTED
 (function(jQuery) {
-  
-  // searches multiple words separately
-  // usage: $("input#searchfield").search("ul#searchables li")
   
   var settings, searchables, searchfield // scope these as shared
   

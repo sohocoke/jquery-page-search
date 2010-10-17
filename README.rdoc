@@ -1,0 +1,8 @@
+== jQuery Page Search
+
+* Searches multiple words independantly
+* Highlights results on page (.highlight needs to be defined in css)
+* Collapses items that don't match
+* Fires keyup on the input you assign it to.
+
+  *usage*: $("input#searchfield").search("ul#searchables li")
