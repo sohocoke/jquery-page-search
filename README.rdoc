@@ -5,8 +5,23 @@
 * Collapses items that don't match
 * Fires keyup on the input you assign it to.
 
+== HTML
 
-  *usage*: $("input#searchfield").search("ul#searchables li")
+  <input type="text" id="search" />
+  <ul id="searchables">
+    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras ultrices ullamcorper tortor.</li>
+    <li>Mauris blandit ipsum nec mi. Cras condimentum turpis nec sapien.</li>
+    <li>Vestibulum fringilla. Suspendisse placerat, sapien eu vehicula venenatis,</li>
+  </ul>
+  
+== JS
+
+  <script type="text/javascript" src="jquery.search.js"></script>
+  <script type="text/javascript" charset="utf-8">
+    $("input#search").search("ul#searchables li")
+  </script>
+  
+== Credits
   
 shout-out to Johann Burkard for the highlight plugin: 
 
