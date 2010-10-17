@@ -3,7 +3,7 @@
 * Searches multiple words independantly
 * Highlights results on page (.highlight needs to be defined in css)
 * Collapses items that don't match
-* Fires keyup on the input you assign it to.
+* Fires on keyup in the input field you assign it to.
 
 == HTML
 
